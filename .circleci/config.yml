@@ -16,6 +16,6 @@ workflows:
     example-workflow:
       jobs:
         - docker/publish:
-            image: nareshchandanbatve/team_builder
+            image: team_builder
             tag: latest
             deploy: true

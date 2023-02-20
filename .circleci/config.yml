@@ -21,10 +21,10 @@ jobs:
       - docker/build:
           image: nareshchandanbatve/team-builder 
           tag: latest 
-          
-      - docker/push:
-          image: nareshchandanbatve/team-builder 
-          tag: latest 
+
+      # - docker/push:
+      #     image: nareshchandanbatve/team-builder 
+      #     tag: latest 
 
 workflows:
   docker-build-push:
